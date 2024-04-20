@@ -1,0 +1,126 @@
+{
+    "Title": "15 Years Have Gone By",
+    "Credits": "Created by Gabriel Lipow (glipow@ucsc.edu).",
+    "InitialLocation": "The Entrance",
+    "Locations": {
+        "The Entrance": {
+            "Body": "It's been 15 years.\nI can't explain in, but there's a certain force that just keeps pushing me away.\nBut family is still family. Baba is standing on the other side of the checkpoint, with an excitedly impatient look on her face. To think she looked so scary when I was young...\n",
+            "Choices": [
+                {
+                    "Check": "",
+                    "Text": "To get to the town, I have to get through the checkpoint first.",
+                    "Target": "The Checkpoint"
+                },
+                {
+                    "Text": "Nevermind. I can't do this. I have to leave.",
+                    "Target": "The City"
+                }
+            ]
+        },
+        "The Checkpoint": {
+            "Body": "The soldiers stand, rifles on hips, and chat amongst themselves.\nIt's 1300 hours, so very few people are crossing and they're taking some time off.\nI drive up, and they wave me over.",
+            "Choices": [
+                {
+                    "Check": "org",
+                    "Text": "'.אני נוסע לאריאל, הנה הזיהוי שלי'\n(I'm going to Ari'el, here's my ID.)",
+                    "Target": "The Circle"
+                },
+                {
+                    "Text": "'?סליחה, עשיתי פנייה לא נכונה. אפשר להסתובב'\n(Excuse me, I made a wrong turn. Mind if I turn around?)",
+                    "Target": "The City"
+                }
+            ]
+        },
+        "The Circle": {
+            "Check": "",
+            "Body": "For the most part, the entrance to the town is exactly the same as I remember it. Yusuf still runs his shawarma stand, shouting at and chatting with his workers in Arabic. Some soldiers - little more than kids, really - stand around and laugh at the bus stop. Cars drive both into the town and into the neighboring town, Salfit. But Baba runs up and hugs me, and gives me a smile. 'Куда ты хочешь пойти?' (Where to?)",
+            "Choices": [
+                {
+                    "Text": "Давай пойдем в сам город. Надо мне увидеть все что поменялось.\n(Let's go into the town. I want to see all that's changed.)",
+                    "Target": "The Town"
+                },
+                {
+                    "Text": "Давай пойдом и погуляем в Салфит - я довно там не был.\n(Why don't we go to Salfit - I haven't been there in a long time.",
+                    "Target": "The Neighbors"
+                }
+            ]
+        },
+        "The City": {
+            "Check": "",
+            "Body": "I couldn't bring myself to go back. Not this time."
+        },
+        "The Town": {
+            "Check": "",
+            "Body": "Ариэль уже не токой город в которым ты жил. У нас теперь и солдаты, и пингвины...\n(Ari'el isn't the same town you lived in. Now we have soldiers, and penguins...)",
+            "Choices": [
+                {
+                    "Text": "Что это все по поводу пингвиний?\n(What's all this about penguins?)",
+                    "Target": "The Penguins"
+                },
+                {
+                    "Text": "Что это за серая коробка?\n(What's that gray box?)",
+                    "Target": "checkpoint2"
+                }
+            ]
+        },
+        "checkpoint2": {
+            "Check": "",
+            "Body": "Her face turns dark.\n'Ну... блин. Я помню Ади. Рад, что с ним все в порядке, но он этого явно не заслуживает. Как насчет того, чтобы пойти домой. Мне это тяжело.'\n(A few years ago, we had an incident. I saw it myself. A soldier waved over a car - Adi, you remember him, right? Used to be our neighbor? - and the car pulled over... but didn't stop. Luckily he survived, but he had to relearn to walk. Broken back, you understand?",
+            "Choices": [
+                {
+                    "Check": "pnt",
+                    "Text": "Ну... блин. Я помню Ади. Рад, что с ним все в порядке, но он этого явно не заслужиыл. Как насчет того, чтобы пойти домой. Мне это тяжело.\n(Well... fuck. I remember Adi. Glad he is alright, but he sure doesn't deserve that. How about we go home. This is hard on me.)",
+                    "Target": "The Apartment"
+                }
+            ]
+        },
+        "The Neighbors": {
+            "Check": "",
+            "Body": "К черту это. Если нужно, иди один. (Fuck that. If you have to go, go alone.)\nSalfit is a much smaller town than Ari'el - 2,000 people as opposed to 20,000. But as I reach the town, it becomes clear to me that this Arabic town is far too large for me. And the look on the resident's faces suggest only one thing.",
+            "Choices": [
+                {
+                    "Text": "I'm no longer welcome... I should go back.",
+                    "Target": "The Circle"
+                }
+            ]
+        },
+        "The Apartment": {
+            "Check": "",
+            "Body": "The old apartment has seen better years. But funnily enough, the bedroom I grew up in is exactly the same. The bedding is fresh, but even the toy soldiers I had as a child were there. Gray Germans, blue Americans, green Frenchmen, and red Russians. But for the moment, I'm tired, and so I lie down. Maybe I'll get some sleep.",
+            "Choices": [
+                {
+                    "Text": "But something is off...",
+                    "Target": "The Memory"
+                }
+            ]
+        },
+        "The Penguins": {
+            "Check": "",
+            "Body": "Я понимаю - тебя давно здесь не было. Все эти харедим начали жить здесь не так давно. Два года назад здесь было несколько семей. Теперь их тысяча, этих муравьев. (Right - you haven't been here in a while. The ultra-Orthodox started living here pretty recently. Two years ago it was a few families. Now there are a thousand of them, the ants.)",
+            "Choices": [
+                {
+                    "Text": "О, я понял! Черные костюмы, белые рубашки и желтые очки. Надеюсь, через несколько лет они не превзойдут русских...\n(Oh - I get it! Black suits, white shirts, and yellow glasses. Hopefully they won't outnumber the Russians here in a few years...)",
+                    "Target": "The Apartment"
+                },
+                {
+                    "Text": "Это не смешно. Они такие же люди, как и мы, даже если они странно одеваются.\n(That's not funny. They're people just like us - even if they do dress strange.)",
+                    "Target": "The Apartment"
+                }
+            ]
+        },
+        "The Memory": {
+            "Body": "",
+            "Check": "mem",
+            "Choices": [
+                {
+                    "Text": "I can't do this. I can't stay here.",
+                    "Target": "The End"
+                }
+            ]
+        },
+        "The End": {
+            "Check": "",
+            "Body": "I run. I run for the bus stop, and take the first possible bus. It doesn't matter where to, just anywhere that isn't here.\nMaybe I'll be able to handle it in another 15 years."
+        }
+    }
+}
